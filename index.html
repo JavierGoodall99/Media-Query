@@ -5,9 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
+    <title>Media Query</title>
 </head>
 <body>
-    
+    <!-- header>(img+nav>(ul>li*3))^.flex-container>(aside+main)^footer -->
+    <header>
+        <img class="logo" src="https://i.postimg.cc/nLd8v77d/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon-3942.webp" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                 <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex-container">
+        <aside>
+            <h2>Aside</h2>
+        </aside>
+        <main>
+            <h2>Main Content</h2>
+        </main>
+    </div>
+    <footer>
+        <p>Copyright</p>
+    </footer>
 </body>
 </html>
